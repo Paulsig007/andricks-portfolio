@@ -1,0 +1,263 @@
+:root {
+  --black: #000000;
+  --blue: #14213d;
+  --yellow: #fca311;
+  --grey: #e5e5e5;
+  --white: #ffffff;
+}
+
+* {
+  font-family: "Secular One", sans-serif;
+}
+
+header {
+  font-family: "Secular One", sans-serif;
+  display: flex;
+  color: var(--yellow);
+  background-color: var(--blue);
+  height: 26vw;
+  font-size: 6vw;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0vw;
+  padding-left: 2vw;
+  align-content: space-evenly;
+}
+
+.header-text {
+  margin-top: -2vw;
+}
+
+img {
+  border-radius: 50%;
+  width: 17vw;
+  margin-left: 12vw;
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+}
+
+h2 {
+  font-family: "Secular One", sans-serif;
+  font-size: 5vw;
+  padding-left: 7vw;
+  margin-top: -9vw;
+}
+
+#nav-list {
+  display: flex;
+  background-color: var(--blue);
+  color: var(--yellow);
+  list-style-type: none;
+  justify-content: end;
+  gap: 5vw;
+  padding-bottom: 2vw;
+  padding-right: 2vw;
+  font-size: 40px;
+}
+
+div li a {
+  font-family: "Secular One", sans-serif;
+  color: #fca311;
+  text-decoration: none;
+}
+
+div li a:hover {
+  color: rgb(250, 2, 221);
+}
+
+main {
+  border-top: 3px solid var(--black);
+  background-color: var(--grey);
+}
+
+h3 {
+  padding: 2vw;
+  font-size: 8vw;
+  margin-bottom: 3vw;
+}
+
+#art-about {
+  display: inline-flex;
+  height: 35vw;
+}
+
+#head-about {
+  padding-left: 6vw;
+  color: #14213d;
+  padding-right: 6vw;
+  border-right: 6px solid var(--yellow);
+  border-radius: 0 0 20px 0;
+}
+
+#about {
+  flex-wrap: wrap;
+  padding: 3vw;
+  margin-top: 6vw;
+  font-size: 2vw;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vw;
+  gap: 15px;
+}
+
+#main-card {
+  display: flex;
+  align-items: end;
+  border: 3px solid black;
+  background-image: url(/Assets/Images/prework-study-guide.png);
+  background-position: center;
+  background-position: top;
+  width: 88%;
+  height: 10vw;
+  text-decoration: none;
+  background-size: cover;
+}
+
+#card-title {
+  padding: 0.5vw;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: #fca311;
+  margin: 0.7vw;
+}
+
+#card-title:hover {
+  text-align: center;
+  width: 102%;
+  height: 102%;
+  font-size: 110%;
+  border: 3px solid rgb(250, 2, 221);
+}
+
+#card1 {
+  display: flex;
+  align-items: end;
+  border: 3px solid black;
+  width: 43%;
+  height: 10vw;
+  background-image: url(/Assets/Images/Horiseon-Refactor.png);
+  background-position: center;
+  background-position: top;
+  background-size: cover;
+}
+
+#card2 {
+  display: flex;
+  align-items: end;
+  border: 3px solid black;
+  width: 43%;
+  height: 10vw;
+  background-image: url(/Assets/Images/my-first-website.png);
+  background-position: center;
+  background-position: top;
+  background-size: cover;
+}
+
+#card3 {
+  display: flex;
+  align-items: end;
+  border: 3px solid black;
+  width: 43%;
+  height: 10vw;
+  background-image: url(https://images.unsplash.com/photo-1565038924091-e76522104855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+#card4 {
+  display: flex;
+  align-items: end;
+  border: 3px solid black;
+  width: 43%;
+  height: 10vw;
+  background-image: url(https://images.unsplash.com/photo-1561496684-e72de7a680eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-anchor {
+  text-decoration: none;
+  color: #14213d;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 3px solid black;
+  width: 43%;
+  height: 10vw;
+}
+
+#art-work {
+  display: inline-flex;
+  padding-top: 4vw;
+}
+
+#head-work {
+  padding-left: 7.5vw;
+  border-right: 6px solid var(--yellow);
+  border-radius: 0 0 20px 0;
+  padding-right: 7.3vw;
+  color: #14213d;
+}
+
+#art-contact {
+  display: inline-flex;
+  padding-top: 4vw;
+}
+
+#head-contact {
+  padding-right: 2vw;
+  border-right: 6px solid var(--yellow);
+  border-radius: 0 0 20px 0;
+  padding-right: 3.7vw;
+  color: #14213d;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  margin: 2vw;
+  padding-left: 2vw;
+  padding-top: 0vw;
+  font-size: 2vw;
+  line-height: 2vw;
+  margin-top: 0vw;
+}
+
+ul li a,
+ul li {
+  text-decoration: none;
+  color: #14213d;
+}
+
+ul li a:hover {
+  color: rgb(250, 2, 221);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14213d;
+  color: #ffffff;
+  font-family: "Secular One", sans-serif;
+  border: 2px solid var(--black);
+  height: 6vw;
+  font-size: 1.5vw;
+  min-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  article {
+    flex-direction: column;
+  }
+}
