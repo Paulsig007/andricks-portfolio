@@ -14,7 +14,16 @@ header {
   font-family: "Secular One", sans-serif;
   display: flex;
   color: var(--yellow);
-  background-color: var(--blue);
+  background-color: #14213d;
+  opacity: 0.9;
+  background-color: #14213d;
+  opacity: 0.9;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #14213d 15px
+    ),
+    repeating-linear-gradient(#e5e5e555, #e5e5e5);
   height: 26vw;
   font-size: 6vw;
   align-items: center;
@@ -50,6 +59,7 @@ h2 {
   list-style-type: none;
   justify-content: end;
   gap: 5vw;
+  padding-top: 2vw;
   padding-bottom: 2vw;
   padding-right: 2vw;
   font-size: 40px;
@@ -108,11 +118,11 @@ h3 {
   display: flex;
   align-items: end;
   border: 3px solid black;
-  background-image: url(/Assets/Images/prework-study-guide.png);
+  background-image: url(/andricks-portfolio/Assets/Images/prework-study-guide.png);
   background-position: center;
   background-position: top;
-  width: 88%;
-  height: 10vw;
+  width: 87%;
+  height: 12vw;
   text-decoration: none;
   background-size: cover;
 }
@@ -137,9 +147,9 @@ h3 {
   display: flex;
   align-items: end;
   border: 3px solid black;
-  width: 43%;
+  width: 42%;
   height: 10vw;
-  background-image: url(/Assets/Images/Horiseon-Refactor.png);
+  background-image: url(/andricks-portfolio/Assets/Images/Horiseon-Refactor.png);
   background-position: center;
   background-position: top;
   background-size: cover;
@@ -149,9 +159,9 @@ h3 {
   display: flex;
   align-items: end;
   border: 3px solid black;
-  width: 43%;
+  width: 42%;
   height: 10vw;
-  background-image: url(/Assets/Images/my-first-website.png);
+  background-image: url(/andricks-portfolio/Assets/Images/my-first-website.png);
   background-position: center;
   background-position: top;
   background-size: cover;
@@ -161,7 +171,7 @@ h3 {
   display: flex;
   align-items: end;
   border: 3px solid black;
-  width: 43%;
+  width: 42%;
   height: 10vw;
   background-image: url(https://images.unsplash.com/photo-1565038924091-e76522104855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
   background-position: center;
@@ -173,7 +183,7 @@ h3 {
   display: flex;
   align-items: end;
   border: 3px solid black;
-  width: 43%;
+  width: 42%;
   height: 10vw;
   background-image: url(https://images.unsplash.com/photo-1561496684-e72de7a680eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
   background-position: center;
@@ -184,14 +194,6 @@ h3 {
 .card-anchor {
   text-decoration: none;
   color: #14213d;
-}
-
-.card {
-  display: flex;
-  align-items: center;
-  border: 3px solid black;
-  width: 43%;
-  height: 10vw;
 }
 
 #art-work {
@@ -259,5 +261,18 @@ footer {
   header,
   article {
     flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  #nav-list {
+    justify-content: center;
+  }
+
+  img {
+    display: none;
   }
 }
